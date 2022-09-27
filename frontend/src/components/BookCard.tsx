@@ -10,8 +10,9 @@ export default function BookCard(props: BookCardProps){
 
     return (
         <div className={"book-card"}>
-
-            <p>{props.book.isbn} {props.book.title} {props.book.author}</p>
+            <h3>{props.book.title}</h3>
+            <h4>{props.book.author}</h4>
+            <p>{props.book.isbn}  </p>
 
         </div>
     )
