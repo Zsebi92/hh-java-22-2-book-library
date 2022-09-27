@@ -1,4 +1,5 @@
 import {Book} from "../model/Book";
+import "./BookCard.css"
 
 
 type BookCardProps = {
